@@ -1,0 +1,124 @@
+.color {
+  background-color: #E9E9E9;
+  margin-top: 50px;
+  padding: 20px;
+  padding-left: 20px
+}
+.list {
+ list-style: none;
+ font-size: 14px;
+}
+li {
+  margin-top: 10px;
+  color: grey;
+}
+.img {
+  margin-top: 4px;
+}
+.offres {
+  margin-top: 10px;
+}
+.mailto {
+  margin-top: 10px;
+}
+#inter {
+  margin-top: 5px
+}
+.fa-facebook-official {
+  color: #3B5998;
+}
+.fa-twitter-square{
+  color: #1DA1F2;
+}
+.fa-google-plus-square{
+  color:#C33325;
+}
+.fa-linkedin-square {
+  color: #0274B3;
+}
+.fa-youtube-square{
+  color: #C61B1F;
+}
+.fa-wikipedia-w {
+  color: black;
+}
+.social {
+  margin-top: 5px;
+}
+.paypal {
+  width: 15%;
+}
+.paylib {
+  width: 15%;
+}
+.cheque {
+  width:15%;
+}
+.cb {
+  width: 15%;
+}
+.visa {
+  width: 15%;
+}
+.master {
+  width: 15%;
+}
+.copyright {
+  margin-top: 10px;
+  font-size: 10px;
+  color: grey;
+}
+.center-block {
+  margin-top: 10px;
+  font-size: 10px;
+  color: grey;
+  text-align: center;
+}
+.dern {
+  margin-top: 10px;
+  font-size: 14px;
+  color: grey;
+}
+@media (max-width: 520px) {
+  .place {
+    margin-left: 18px;
+  }
+  .paypal {
+    width: 10%;
+  }
+  .paylib {
+    width: 10%;
+  }
+  .cheque {
+    width:10%;
+  }
+  .cb {
+    width: 10%;
+  }
+  .visa {
+    width: 10%;
+  }
+  .master {
+    width: 10%;
+  }
+}
+@media (max-width: 991px) {
+  .paypal {
+    width: 10%;
+  }
+  .paylib {
+    width: 10%;
+  }
+  .cheque {
+    width:10%;
+  }
+  .cb {
+    width: 10%;
+  }
+  .visa {
+    width: 10%;
+  }
+  .master {
+    width: 10%;
+  }
+}
