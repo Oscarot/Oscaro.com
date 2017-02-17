@@ -1,3 +1,95 @@
+/*header*/
+.headerPhoto{
+  text-align: center;
+  background-color: #E9E9E9;
+}
+.menuHeader{
+  margin-top: 25px;
+}
+.devise{
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+  color: #144A82;
+}
+.bonhomme{
+  position: relative;
+  z-index: 1;
+}
+.numero{
+  font-size: 20px;
+  color: #144A82;
+  font-weight: bold;
+}
+.hautDroit{
+  position: relative;
+  left: 110px;
+}
+.hautDroit .article{
+  position: relative;
+  left: 150px;
+}
+.bordMenu{
+  border-top: 24px solid #144A82;
+  border-right: 45px solid transparent;
+  position: relative;
+  right: 12px;
+  bottom: 2px;
+}
+.bordMenu li{
+  position: relative;
+  bottom: 22px;
+  border-right: 1px solid white;
+  color: #ffffff;
+}
+a{
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+input,.btn,select{
+  border-radius: 0px;
+}
+legend{
+  text-align: center;
+}
+.form1{
+  background-color: #99CA3C;
+}
+.saisie{
+  height: 40px;
+}
+.ok1{
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+.form2{
+  border: 1px solid #99CA3C;
+  background-color: #F5F5F5;
+}
+.hauteur{
+  height: 200px;
+}
+.block,.block2{
+  background-color: #E9E9E9;
+  text-align: center;
+}
+.block2{
+  margin-top: 32px;
+}
+.btn2{
+  background-color:#99CA3C;
+  border-color: #99CA3C;
+  margin-top: 5px;
+  margin-left: 45%;
+}
+/*footer*/
 .color {
   background-color: #E9E9E9;
   margin-top: 50px;
@@ -121,4 +213,3 @@ li {
   .master {
     width: 10%;
   }
-}
