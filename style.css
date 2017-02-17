@@ -20,13 +20,19 @@
   color: #144A82;
   font-weight: bold;
 }
+.hCompte{
+  font-size: 14px;
+  font-weight: bold;
+  color: #144A82;
+  margin-right: 15px;
+}
 .hautDroit{
   position: relative;
   left: 110px;
 }
 .hautDroit .article{
   position: relative;
-  left: 150px;
+  left: 160px;
 }
 .bordMenu{
   border-top: 24px solid #144A82;
@@ -35,25 +41,61 @@
   right: 12px;
   bottom: 2px;
 }
-.bordMenu li{
+.liensMenu{
+  margin-top: 0px;
   position: relative;
-  bottom: 22px;
+  bottom: 20px;
   border-right: 1px solid white;
   color: #ffffff;
 }
-a{
+.neige{
+  margin-top: 0px;
+  position: relative;
+  bottom: 20px;
+  color: #144A82;
+  background-color: #ffffff;
+}
+.menuBlanc{
+  margin-top: 0px;
+  bottom: 18px;
+  position: relative;
+  left: 420px;
+}
+.btnxs{
+  position: relative;
+  top: 12px;
+  left: 20px;
+}
+.ok1{
+  position: relative;
+  left: 10px;
+  top: 5px;
+  border-radius: 0px;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
 }
-a:hover{
+.ok1:hover{
   text-decoration: none;
   color: #ffffff;
 }
-input,.btn,select{
+.ok2,.ok4{
+  position: relative;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+.ok2:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+.saisie,.saisie2,.btn,select{
   border-radius: 0px;
 }
+
 legend{
   text-align: center;
 }
@@ -63,17 +105,14 @@ legend{
 .saisie{
   height: 40px;
 }
-.ok1{
-  position: relative;
-  left: 10px;
-  top: 5px;
-}
 .form2{
   border: 1px solid #99CA3C;
   background-color: #F5F5F5;
 }
 .hauteur{
+  margin-top: 15px;
   height: 200px;
+  line-height: 25px;
 }
 .block,.block2{
   background-color: #E9E9E9;
@@ -81,12 +120,6 @@ legend{
 }
 .block2{
   margin-top: 32px;
-}
-.btn2{
-  background-color:#99CA3C;
-  border-color: #99CA3C;
-  margin-top: 5px;
-  margin-left: 45%;
 }
 /*Nos engagment*/
 h4{
@@ -112,9 +145,6 @@ h4{
  margin-top: -18px;
 font-size: 50px;
 }
-p{
-  text-align: left;
-}
 .test2{
   font-size: 20px;
   position: relative;
@@ -123,7 +153,6 @@ p{
 }
 .truck{
   margin-left: 20px;
-}
 }
 /*piece*/
 body{
@@ -137,9 +166,6 @@ body{
 }
 .nav nav-pills{
   color: #314F82;
-}
-.btn{
-  border-radius: 0px;
 }
 .media-body,.media-right{
   position: relative;
@@ -158,6 +184,7 @@ body{
 }
 .media{
   padding-top: 10%;
+}
 /*footer*/
 .color {
   background-color: #E9E9E9;
@@ -282,6 +309,7 @@ li {
   .master {
     width: 10%;
   }
+}
 @media screen and (max-width: 765px){
 .test{
   font-size: 20px;
