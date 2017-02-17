@@ -1,0 +1,43 @@
+h4{
+  text-align: center;
+}
+.bandeau{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  margin-top: 5%;
+  margin-bottom: 50px;
+  border: 1px solid silver;
+  padding: 15px 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.glyphicon{
+  width: 35px;
+ height: 30px;
+ margin-top: -18px;
+font-size: 50px;
+}
+p{
+  text-align: left;
+}
+
+@media screen and (max-width: 765px){
+.test{
+  font-size: 20px;
+  position: relative;
+  right: 30px;
+}
+.test2{
+  font-size: 20px;
+  position: relative;
+  left: 270px;
+  top: -80px;
+}
+.truck{
+  margin-left: 20px;
+}
+}
