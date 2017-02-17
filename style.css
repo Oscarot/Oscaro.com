@@ -1,0 +1,34 @@
+body{
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
+}
+.navbar-form{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 16px;
+}
+.nav nav-pills{
+  color: #314F82;
+}
+.btn{
+  border-radius: 0px;
+}
+.media-body,.media-right{
+  position: relative;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  height: 20%;
+  vertical-align: middle;
+  padding-top: 2%;
+}
+.col-md-3{
+  vertical-align: text-bottom;
+}
+.styleNone{
+  list-style: none;
+  vertical-align: text-top;
+}
+.media{
+  padding-top: 10%;
+}
+}
